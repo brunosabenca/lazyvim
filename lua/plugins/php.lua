@@ -35,34 +35,6 @@ return {
     version = "1.32.0",
   },
   {
-    "stevearc/conform.nvim",
-    optional = true,
-    opts = {
-      formatters_by_ft = {
-        php = {
-          "docker_php_cs_fixer",
-        },
-      },
-      formatters = {
-        docker_php_cs_fixer = {
-          command = "docker",
-          args = {
-            "compose",
-            "exec",
-            '--env="XDEBUG_MODE=off"',
-            "-T",
-            "goodlord-core",
-            "vendor/bin/php-cs-fixer",
-            "fix",
-            "$RELATIVE_FILEPATH",
-          },
-          cwd = require("conform.util").root_file({ "docker-compose.yaml" }),
-          stdin = false,
-        },
-      },
-    },
-  },
-  {
     "mfussenegger/nvim-lint",
     optional = true,
     opts = {
