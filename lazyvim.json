@@ -3,11 +3,15 @@
     "lazyvim.plugins.extras.ai.copilot",
     "lazyvim.plugins.extras.formatting.prettier",
     "lazyvim.plugins.extras.lang.docker",
+    "lazyvim.plugins.extras.lang.go",
     "lazyvim.plugins.extras.lang.json",
     "lazyvim.plugins.extras.lang.markdown",
+    "lazyvim.plugins.extras.lang.nix",
     "lazyvim.plugins.extras.lang.php",
     "lazyvim.plugins.extras.lang.typescript",
-    "lazyvim.plugins.extras.linting.eslint"
+    "lazyvim.plugins.extras.linting.eslint",
+    "lazyvim.plugins.extras.lang.yaml",
+    "lazyvim.plugins.extras.util.dot"
   ],
   "install_version": 8,
   "news": {
