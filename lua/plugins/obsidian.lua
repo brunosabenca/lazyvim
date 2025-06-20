@@ -8,8 +8,8 @@ return {
     -- refer to `:h file-pattern` for more examples
     "BufReadPre "
       .. vim.fn.expand("~")
-      .. "/Insync/trueheikai@gmail.com/Google Drive/lib/goodlord/*.md",
-    "BufNewFile " .. vim.fn.expand("~") .. "/Insync/trueheikai@gmail.com/Google Drive/lib/goodlord/*.md",
+      .. "/doc/goodlord/*.md",
+    "BufNewFile " .. vim.fn.expand("~") .. "/doc/goodlord/*.md",
   },
   dependencies = {
     "nvim-lua/plenary.nvim",
@@ -18,7 +18,7 @@ return {
     workspaces = {
       {
         name = "goodlord",
-        path = "~/Insync/trueheikai@gmail.com/Google Drive/lib/goodlord",
+        path = "~/doc/goodlord",
       },
     },
   },
